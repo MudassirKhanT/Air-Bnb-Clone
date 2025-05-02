@@ -139,3 +139,61 @@ body {
     color: black;
   }
 }
+.mainIcon {
+  height: 70px;
+  width: 100%;
+  box-shadow: 1px 1px 3px gray;
+  /* border: 1px solid black; */
+}
+.multiIcon {
+  display: flex;
+  justify-content: space-around;
+}
+.multiText {
+  height: 35px;
+  width: 56%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-around;
+}
+.b1 {
+  padding: 5px;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  position: relative;
+  top: 15px;
+  span {
+    padding-left: 10px;
+    position: relative;
+    bottom: 5px;
+    color: gray;
+  }
+}
+.b1:hover {
+  background-color: lightgray;
+  span {
+    color: black;
+  }
+}
+.b2 {
+  padding: 5px;
+  width: 200px;
+  position: relative;
+  top: 15px;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  span {
+    padding-left: 10px;
+    position: relative;
+    bottom: 5px;
+    color: gray;
+  }
+}
+.b2:hover {
+  background-color: lightgray;
+  span {
+    color: black;
+  }
+}
