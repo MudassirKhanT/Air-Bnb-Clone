@@ -1,11 +1,13 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+body {
 }
 .head1 {
   height: 70px;
   width: 100%;
-  border: 1px solid black;
   display: flex;
   justify-content: space-between;
   font-size: large;
@@ -55,3 +57,82 @@
 /* .icons:hover{
 
 } */
+
+.container {
+  height: 70px;
+  width: 95%;
+  margin: 25px;
+  border: 1px solid whitesmoke;
+  border-radius: 50px;
+  box-shadow: 1px 1px 3px gray;
+}
+.c {
+  display: flex;
+  padding-top: 2px;
+  justify-content: space-between;
+
+  img {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 20px;
+    right: 5px;
+  }
+}
+.first {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-left: 15px;
+  span {
+    padding-left: 10px;
+  }
+  input {
+    height: 35px;
+    border-radius: 50px;
+    border: 1px solid lightgray;
+    text-align: center;
+  }
+  input:hover {
+    background-color: whitesmoke;
+    color: black;
+  }
+}
+.second {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-left: 15px;
+  span {
+    padding-left: 10px;
+  }
+  input {
+    height: 35px;
+    border-radius: 50px;
+    border: 1px solid lightgray;
+    text-align: center;
+  }
+  input:hover {
+    background-color: whitesmoke;
+    color: black;
+  }
+}
+.third {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-left: 15px;
+  span {
+    padding-left: 10px;
+  }
+  input {
+    height: 35px;
+    border-radius: 50px;
+    border: 1px solid lightgray;
+    text-align: center;
+  }
+  input:hover {
+    background-color: whitesmoke;
+    color: black;
+  }
+}
