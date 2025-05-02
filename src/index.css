@@ -57,10 +57,13 @@ body {
 /* .icons:hover{
 
 } */
-
+.mainTop {
+  display: flex;
+  justify-content: center;
+}
 .container {
   height: 70px;
-  width: 95%;
+  width: 60%;
   margin: 25px;
   border: 1px solid whitesmoke;
   border-radius: 50px;
