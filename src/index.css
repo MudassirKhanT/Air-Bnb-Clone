@@ -197,3 +197,42 @@ body {
     color: black;
   }
 }
+/* .card-container {
+  height: 100%;
+  width: 95%;
+  margin: 50px;
+  border: 1px solid black;
+  display: flex;
+} */
+.template {
+  height: 300px;
+  width: 270px;
+  margin: 55px;
+  display: inline-block;
+  img {
+    border-radius: 25px;
+  }
+}
+.up {
+  display: flex;
+  justify-content: space-between;
+}
+.right {
+  display: flex;
+  img {
+    position: relative;
+    bottom: 10px;
+    padding-right: 3px;
+  }
+  p {
+    position: relative;
+    bottom: 6px;
+  }
+}
+.down {
+  color: gray;
+  span {
+    color: black;
+    text-decoration: underline;
+  }
+}
