@@ -39,9 +39,9 @@ body {
   }
 }
 .globe {
-  padding: 5px;
+  padding: 15px;
   position: relative;
-  top: 10px;
+  top: 1px;
 }
 .icons {
   margin-right: 10px;
@@ -208,6 +208,9 @@ body {
   height: 300px;
   width: 270px;
   margin: 55px;
+  border: 1px solid whitesmoke;
+  border-radius: 25px;
+  box-shadow: 1px 1px 1px lightgray;
   display: inline-block;
   img {
     border-radius: 25px;
@@ -234,5 +237,22 @@ body {
   span {
     color: black;
     text-decoration: underline;
+  }
+}
+.end-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  button {
+    background-color: rgb(26, 22, 22);
+    color: white;
+    border-radius: 2px;
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: large;
+    border: none;
+    outline: none;
   }
 }
