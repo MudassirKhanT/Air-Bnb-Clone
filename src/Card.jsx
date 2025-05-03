@@ -2,7 +2,7 @@ function Card(props) {
   return (
     <>
       <div className="template">
-        <img src={props.hotel} alt="hotel1" />
+        <img className="home" src={props.hotel} alt="hotel1" />
         <div className="up">
           <div className="left">
             <p>{props.address}</p>
